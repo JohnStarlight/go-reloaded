@@ -45,7 +45,7 @@ func Tokenizer(text string) []Token {
 	for i := 0; i < len(runes); i++ {
 		switch {
 		case runes[i] == '(':
-			// scan ahead to the closing paren
+			// scan ahead to the closing parenthesis
 			j := i
 			for j < len(runes) && runes[j] != ')' {
 				j++

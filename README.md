@@ -84,6 +84,5 @@ Punctuation tests are... kinda boring, what do you think?
 The project has no external dependencies. Run directly with the Go toolchain (Go 1.21+):
 
 ```sh
-go build .
 go run . input.txt output.txt
 ```
